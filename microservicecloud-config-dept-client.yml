@@ -13,6 +13,7 @@ mybatis:
   - classpath:mybatis/mapper/**/*.xml                       # mapper映射文件
     
 spring:
+   profiles: dev
    application:
     name: microservicecloud-config-dept-client
    datasource:
@@ -52,6 +53,7 @@ mybatis:
   - classpath:mybatis/mapper/**/*.xml                       # mapper映射文件
     
 spring:
+   profiles: test
    application:
     name: microservicecloud-config-dept-client
    datasource:
